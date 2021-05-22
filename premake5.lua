@@ -5,6 +5,10 @@ language "C"
 targetdir("build/%{cfg.system}/%{cfg.architecture}/%{cfg.shortname}/bin")
 objdir("build/%{cfg.system}/%{cfg.architecture}/%{cfg.shortname}/bin-int")
 
+defines {
+	"_CRT_SECURE_NO_WARNINGS"
+}
+
 includedirs {
     "include/"
 }
