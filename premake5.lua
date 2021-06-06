@@ -23,11 +23,9 @@ files {
 
 filter "configurations:Debug"
 	optimize "Debug"
-    defines { "_DEBUG"}
 
 filter "configurations:Release"
     optimize "Speed"
-    defines { "NDEBUG"}
 
 filter {}
 
