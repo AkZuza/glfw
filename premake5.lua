@@ -22,10 +22,8 @@ files {
 }
 
 filter "configurations:Debug"
-	optimize "Debug"
-
+	
 filter "configurations:Release"
-    optimize "Speed"
 
 filter {}
 
