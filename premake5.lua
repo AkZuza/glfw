@@ -34,7 +34,9 @@ filter "system:Windows"
         "src/wgl_**",
         "src/egl_**",
         "src/osmesa_**",
-        "src/vulkan.**"
+        "src/vulkan.**",
+        "src/platform.*",
+        "src/null**"
     }
-    defines {"_GLFW_WIN32"}
+    defines {"_GLFW_WIN32", "_GLFW_VULKAN_STATIC"}
 
